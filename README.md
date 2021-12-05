@@ -1,6 +1,6 @@
 ### Spring学习相关示例实践项目
 - [ ] 搭建基础Web框架
-- [ ] 更换默认Tomcat容器为Undertow
+- [x] 更换默认Tomcat容器为Undertow
 - [ ] 集成Apollo配置中心
 - [ ] 集成Hikari连接池
 - [ ] 集成分布式事务框架Seata
@@ -10,6 +10,7 @@
 - [ ] 消息中间件Kafka
 - [ ] 单元测试框架
 - [ ] 相关系统参数调优
+- [ ] 
 
 ### 模块结构
 
