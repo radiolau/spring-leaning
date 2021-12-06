@@ -18,6 +18,7 @@
         <version.spring.boot>2.6.1</version.spring.boot>
         <undertow.version>2.2.13.Final</undertow.version>
         <logback.version>1.2.7</logback.version>
+        <version.apollo>1.9.0</version.apollo>
     </properties>
 
     <dependencies>
@@ -28,6 +29,7 @@
             <version>${version.spring.boot}</version>
             <type>pom</type>
         </dependency>
+
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
@@ -39,15 +41,24 @@
                 </exclusion>
             </exclusions>
         </dependency>
+
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-undertow</artifactId>
             <version>${version.spring.boot}</version>
         </dependency>
+
         <dependency>
             <groupId>ch.qos.logback</groupId>
             <artifactId>logback-classic</artifactId>
             <version>${logback.version}</version>
         </dependency>
+
+        <dependency>
+            <groupId>com.ctrip.framework.apollo</groupId>
+            <artifactId>apollo-client-config-data</artifactId>
+            <version>1.9.0</version>
+        </dependency>
+
     </dependencies>
 </project>
